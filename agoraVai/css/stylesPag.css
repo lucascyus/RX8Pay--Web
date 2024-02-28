@@ -1,0 +1,176 @@
+﻿body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3B1265;
+    font-family: Inter;
+    font-weight: lighter;
+    overflow-x: hidden;
+}
+
+/* Exemplo de estilos CSS */
+.navbar {
+    width: 100%;
+    background-color: indigo;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+    .navbar ul {
+        list-style: none;
+    }
+
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+    .navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+        .navbar a#Pagamentos {
+            text-decoration: underline;
+            text-underline-offset: 22px;
+            text-decoration-thickness: 5px;
+            text-underline-position: under;
+        }
+
+.navbar #Pagamentos {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+    text-underline-position: under;
+}
+
+div img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px 20px 0 0;
+    width: 3%; /* Torna o ícone responsivo */
+    cursor: pointer;
+    float: right;
+}
+
+.user-panel {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    border-radius: 8px;
+}
+
+.usuario {
+    background-color: silver;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.botao-sair {
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    border-style: none;
+    background-color: indigo;
+}
+
+.botao-pdf, .botao-relatorio {
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background: indigo;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.funcionarios-panel {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#pag h1 {
+    font-size: 48px;
+}
+
+.tabela-pagamentos {
+    width: 100%;
+    border-collapse: collapse; /* Remove o espaçamento entre as células da tabela */
+}
+
+    .tabela-pagamentos th, .tabela-pagamentos td {
+        padding: 10px; /* Adicione algum espaço interno nas células da tabela */
+        text-align: left;
+    }
+
+    .tabela-pagamentos th {
+        background-color: indigo;
+        color: white;
+        border-radius: 10px;
+    }
+
+        /* Defina uma largura fixa para as colunas da tabela */
+        .tabela-pagamentos th:nth-child(1),
+        .tabela-pagamentos td:nth-child(1) {
+            width: 20%; /* Largura da primeira coluna */
+        }
+
+        .tabela-pagamentos th:nth-child(2),
+        .tabela-pagamentos td:nth-child(2) {
+            width: 30%; /* Largura da segunda coluna */
+        }
+
+    /* Adicione estilos adicionais para as demais colunas, se necessário */
+
+    /* Estilo para as linhas ímpares da tabela (opcional) */
+    .tabela-pagamentos tr:nth-child(odd) {
+        background-color: #f2f2f2; /* Cor de fundo para linhas ímpares */
+    }
+
+.botao-editar {
+    background-color: #FFCE30;
+    border-radius: 8px;
+    color: black;
+    border-style: none;
+    padding: 5px;
+}
+
+.botao-exportar {
+    background-color: #288BA8;
+    border-radius: 8px;
+    color: white;
+    border-style: none;
+    padding: 5px;
+}
+
+.lnkExcluir {
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: indigo;
+    border-radius: 8px; /* Borda arredondada */
+    transition: background-color 0.3s, color 0.3s; /* Efeito de transição suave */
+    /* Adiciona efeito de hover */
+}
+
+

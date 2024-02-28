@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RX8Web", "agoraVai\RX8Web.csproj", "{52A64F7E-3FC8-4293-9856-D5E3497A6B1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52A64F7E-3FC8-4293-9856-D5E3497A6B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A64F7E-3FC8-4293-9856-D5E3497A6B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A64F7E-3FC8-4293-9856-D5E3497A6B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A64F7E-3FC8-4293-9856-D5E3497A6B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D122549F-CB21-4EDF-B422-6DB82C69C280}
+	EndGlobalSection
+EndGlobal

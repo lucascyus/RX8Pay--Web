@@ -1,0 +1,85 @@
+﻿body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3B1265;
+    font-family: Inter;
+    font-weight: lighter;
+}
+
+/* Exemplo de estilos CSS */
+.navbar {
+    width: 100%;
+    background-color: indigo;
+    color: white;
+    padding: 10px;
+}
+
+    .navbar ul {
+        list-style: none;
+    }
+
+        .navbar ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+    .navbar a {
+        text-decoration: none;
+        color: white;
+    }
+
+        .navbar a#Pagamentos {
+            border-bottom: 2px solid white;
+            font-weight: bold;
+        }
+
+.user-icon {
+    background-color: black;
+}
+
+.funcionarios-panel {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#pag h1 {
+    font-size: 48px;
+}
+
+.tabela-pagamentos tr {
+    margin-bottom: 10px;
+}
+
+.tabela-pagamentos th {
+    background-color: indigo;
+    color: white;
+    border-radius: 10px;
+}
+
+.botao-editar {
+    background-color: #FFCE30;
+    border-radius: 8px;
+    color: black;
+    border-style: none;
+    padding: 5px;
+}
+
+.botao-exportar {
+    background-color: #288BA8;
+    border-radius: 8px;
+    color: white;
+    border-style: none;
+    padding: 5px;
+}
+
+/*.tabela-pagamentos {
+    width: 100%;
+    border-collapse:*/
